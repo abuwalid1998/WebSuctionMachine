@@ -51,3 +51,17 @@ Web scraping is the process of extracting data from websites programmatically. I
 }
 
 ```
+#### Word2Vector
+
+```http
+  POST http://localhost:8080/websuctionmachine/Word2Vector
+```
+
+```json
+
+{
+    "inFilename":"Jesus.csv",
+    "outFilename":"Jesus(Word2Vector).csv"
+}
+
+```
